@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="37633" started-at="2020-09-26T02:46:44 IST" finished-at="2020-09-26T02:47:22 IST">
+    <groups>
+      <group name="Regression">
+        <method signature="FirstUserCreation.LOGIN_001()[pri:0, instance:com.vrt.testcases.FirstUserCreation@32e6e9c3]" name="LOGIN_001" class="com.vrt.testcases.FirstUserCreation"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Command line test" duration-ms="37633" started-at="2020-09-26T02:46:44 IST" finished-at="2020-09-26T02:47:22 IST">
+      <class name="com.vrt.testcases.FirstUserCreation">
+        <test-method status="PASS" signature="PreSetUp()[pri:0, instance:com.vrt.testcases.FirstUserCreation@32e6e9c3]" name="PreSetUp" is-config="true" duration-ms="26653" started-at="2020-09-26T02:46:44 IST" finished-at="2020-09-26T02:47:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreSetUp -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.vrt.testcases.FirstUserCreation@32e6e9c3]" name="Setup" is-config="true" duration-ms="9985" started-at="2020-09-26T02:47:11 IST" finished-at="2020-09-26T02:47:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="LOGIN_001()[pri:0, instance:com.vrt.testcases.FirstUserCreation@32e6e9c3]" name="LOGIN_001" duration-ms="112" started-at="2020-09-26T02:47:21 IST" description="LOGIN_001- Verify if 1st user after creation can log into the Kaye Application after installation" finished-at="2020-09-26T02:47:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOGIN_001 -->
+        <test-method status="PASS" signature="Teardown(org.testng.ITestResult)[pri:0, instance:com.vrt.testcases.FirstUserCreation@32e6e9c3]" name="Teardown" is-config="true" duration-ms="71" started-at="2020-09-26T02:47:21 IST" finished-at="2020-09-26T02:47:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LOGIN_001 status=SUCCESS method=FirstUserCreation.LOGIN_001()[pri:0, instance:com.vrt.testcases.FirstUserCreation@32e6e9c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.vrt.testcases.FirstUserCreation@32e6e9c3]" name="endReport" is-config="true" duration-ms="746" started-at="2020-09-26T02:47:21 IST" finished-at="2020-09-26T02:47:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.vrt.testcases.FirstUserCreation -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
